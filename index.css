@@ -117,8 +117,8 @@ footer {
 }
 
 #ig {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
 #brand {
@@ -138,5 +138,53 @@ footer {
 
     footer {
         padding-left: 7.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav {
+        padding: 1em;
+    }
+
+    main {
+        width: 100%;
+        padding: 2em;
+    }
+
+    main p {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        padding: 2em;
+    }
+
+    .socials {
+        margin-right: 2em;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    nav {
+        padding: 1.4em;
+    }
+
+    main {
+        width: 100%;
+        padding: 2em;
+    }
+
+    main p {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        padding: 2em;
+    }
+
+    .socials {
+        margin-right: 2em;
     }
 }
